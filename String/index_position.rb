@@ -55,3 +55,77 @@
 # puts same_first_and_last_letter("q")        
 # 
 
+# story = "Once upon a time in a land far, far away..."
+
+
+# puts story[5, 4]
+# puts story[0, 5]
+
+
+
+
+
+# Define a first_three_characters method that accepts a string.
+# The method should return the first 3 characters of the string.
+#
+# Examples:
+# The => indicates the expected return value
+#
+# first_three_characters("dynasty")   => "dyn"
+# first_three_characters("empire")    => "emp"
+
+
+# Define a five_from_the_end method that accepts a string.
+# The method should return the last 5 characters of the string.
+#
+# Examples:
+# The => indicates the expected return value
+#
+# five_from_the_end("dynasty")   => "nasty"
+# five_from_the_end("rhinoceros") => "ceros"
+# 
+
+# def first_three_characters(value)
+#   value.slice(0,3)
+# end
+
+
+
+
+# def five_from_the_end(value)
+#   value.slice(value.length - 5 , value.length)
+# end
+
+# puts first_three_characters("dynasty") 
+# puts first_three_characters("empire")  
+# puts five_from_the_end("dynasty")   
+# puts five_from_the_end("rhinoceros")
+
+# mutable - capable of change
+
+# thing = "rocket ship"
+
+# thing[0] = "b"
+
+# puts thing
+
+# typo = "GeorgWashington"
+
+# typo.insert(5, "e")
+# puts typo
+
+
+# puts "".empty?
+# puts "abc".empty?
+# puts "hello".nil?
+
+# puts "Effile tower".upcase
+# puts "Effile tower".downcase
+# value = "Effile tower"
+# value.swapcase!
+# puts value
+
+
+
+name = "binamra"
+puts name.reverse
