@@ -71,3 +71,7 @@ puts
 puts first_longer_than_second("Python", "Ruby")     
 puts first_longer_than_second("cat", "mouse")       
 puts first_longer_than_second("Steven", "Seagal")    
+
+
+#give array
+

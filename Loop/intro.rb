@@ -4,7 +4,8 @@
 # while true
 #   puts number += 1  
 #   if number >= 9999
-#     break 
+ii
+§#     break 
 #   end
 # end
 
@@ -16,8 +17,7 @@
 # end
 # 
 
-
-#fizzbuzz problem
+fizzbuzz problem
 
 # def fizzbuzz(value)
 #   count = 0
@@ -40,9 +40,4 @@
 
 # recursion
 
-def something(value)
-  return 1 if value == 1
-  value * something(value - 1)
-end
-
-puts something(5)
+def fjdfsdlkfjsdnde
